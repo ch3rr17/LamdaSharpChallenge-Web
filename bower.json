@@ -1,0 +1,13 @@
+{
+  "name": "lambda-aws-serverless-challenge-web",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "ch3rr17 <cherr.batac@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/ch3rr17/LamdaSharpChallenge-Web",
+  "dependencies": {
+    "bootstrap": "^4.1.0"
+  }
+}
