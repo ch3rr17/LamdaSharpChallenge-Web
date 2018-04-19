@@ -21,8 +21,13 @@
             <div class="container">
               <h1 class="jumbotron">LAMBDA SHARP - AWS SERVERLESS CHALLENGE</h1>
 
+              <form action="https://khbn7xovs8.execute-api.us-east-1.amazonaws.com/dev" id="microForm">
+                <input type="text" name="title" placeholder="Enter the title here">
+                <input type="text" name="content" placeholder="Enter your content here">
+                <button type="submit" class="btn btn-primary">Add New Microb</button>
+              </form>
+
               <div class="btn-group" role="group" aria-label="Basic example" style="margin-bottom: 10px;">
-                <button type="button" class="btn btn-primary">CREATE</button>
                 <button type="button"class="btn btn-primary">UPDATE</button>
                 <button type="button" class="btn btn-primary">DELETE</button>
                 <button type="button" class="btn btn-primary">LIST</button>
@@ -38,16 +43,15 @@
                   </tr>
                 </thead>
                 <tbody>
-                  <tr>
-                    <th scope="row">1</th>
-                    <td>Title1</td>
-                    <td>Content1</td>
-                    <td>Date1</td>
+                  <tr id="table">
+
                   </tr>
                 </tbody>
               </table>
             </div>
             <!-- inject:js -->
             <!-- endinject -->
+            <script src="jquery-3.3.1.min.js"></script>
+            <script src="./global.js"></script>
         </body>
 </html>
